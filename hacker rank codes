@@ -65,3 +65,112 @@ String s = scan.nextLine();
         
     }
 }
+کد های هکر رنک و لید کود: 
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Print output to STDOUT. Your class should be named Solution. */
+        System.out.println("Hello, World.");
+        System.out.println("Hello, Java.");
+        
+    }
+}
+ 
+پرابلم بعدیک 
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int N = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        if(N<=100 && N>=1){
+            if(N%2!= 0){
+                System.out.println("Weird");
+            }
+            if(N%2==0 && N<= 5 && N>= 2){
+                System.out.println("Not Weird");
+            }
+            if(N%2 == 0 && N<= 20 && N>= 6){
+                System.out.println("Weird");
+            }
+            if(N%2 == 0&& N>20){
+                System.out.println("Not Weird");
+            }
+        }
+            scanner.close();
+        
+    }
+}
+
+پرابلم های بعدی: 
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        int i = scan.nextInt();
+       
+double d = scan.nextDouble();
+          scan.nextLine();
+String s = scan.nextLine();
+        // Write your code here.
+
+        System.out.println("String: "+s);
+        System.out.println("Double: "+d);
+        System.out.println("Int: "+i);
+    }
+}
+
+کد های بعدی: 
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                //Complete this line
+                System.out.printf("%-15s%03d%n",s1,x);
+            }
+            System.out.println("================================");
+
+    }
+}
+
+پرابلم بعدی: 
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                //Complete this line
+                System.out.printf("%-15s%03d%n",s1,x);
+            }
+            System.out.println("================================");
+
+    }
+}
+
+
+
